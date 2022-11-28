@@ -70,9 +70,9 @@ group :test, :development do
   gem 'rspec-rails', '~> 6.0.0'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-  # email confirmation
-  gem 'letter_opener'
 end
 
 # user authentication
 gem 'devise'
+# user authorization
+gem 'cancancan'
