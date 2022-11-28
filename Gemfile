@@ -76,3 +76,4 @@ end
 gem 'devise'
 # user authorization
 gem 'cancancan'
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
