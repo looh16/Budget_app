@@ -1,12 +1,12 @@
 <div class="container d-flex">
 <% if current_user%>
-   <%= link_to new_user_group_path(current_user) do %>
+   <%= link_to new_group_path(current_user) do %>
     <button class="add-button">Add category</button>
    <% end %>
    <div class= "container d-flex flex-column">
   <% @groups.each do |group| %> 
       <div class="container d-flex justify-content-between m-4 border">
-          <p><%= group.name %></p>
+          <p><%= link_to group.name, group_entities_path(group)%></p>
           <p><%= group.icon %></p>
       </div>
   <% end %>

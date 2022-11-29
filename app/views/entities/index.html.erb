@@ -1,6 +1,15 @@
 <div class="container d-flex">
 <% if current_user%>
-<p>Ok</p>
+ <%= link_to new_group_entity_path do %>
+    <button class="add-button">Add Transation</button>
+   <% end %>
+   <div class= "container d-flex flex-column">
+  <% @entities.each do |entity| %> 
+      <div class="container d-flex justify-content-between m-4 border">
+          <p><%= entity.name %></p>
+      </div>
+  <% end %>
+</div>
 <i class="fa-solid-fa-house"></i>
 <% else %>
 You are not signet inddddd

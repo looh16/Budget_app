@@ -1,0 +1,21 @@
+<div class= "w-100 d-flex flex-column justify-content-center align-items-center" >
+  <h2>Add Transa</h2>
+  <%= form_for(@entity, :url => group_entities_path, :html => { :method => :post }) do |f| %>
+
+   <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name, class: "form-control" %>
+  </div>
+
+   <div class="field">
+      <%= f.label :amount, class:"form-label" %>
+      <%= f.number_field :amount, class:"form-control" %>
+    </div>
+  
+  
+    <div class="d-flex justify-content-between">
+      <%= f.submit "Add Transaction", class: "btn btn-primary mt-3" %>
+    </div>
+    
+  <% end %>
+</div>
