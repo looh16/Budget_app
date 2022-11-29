@@ -5,9 +5,9 @@
     <%= f.label :name %><br />
     <%= f.text_field :name, class: "form-control" %>
   </div>
-   <div class="field">
-    <%= f.label :icon %><br />
-    <%= f.text_field :icon, class: "form-control" %>
+  <div>
+  <%= f.label :icon, 'Select Icon:', class: "field" %>
+    <%= f.select :icon, ["👞","👔","🎵","🎉","🎄","🎁","🍼","✈️", "🎮", "📚", "🏥", "🏈", "🎬", "🏠", "🐶", "🍻", "🍔", "🚗", "🖥"], value: @group.icon, required: true %>
   </div>
   
     <div class="d-flex justify-content-between">

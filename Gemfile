@@ -77,3 +77,4 @@ gem 'devise'
 # user authorization
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 gem 'cancancan'
+gem 'font-awesome-sass', '~> 6.2.1'
