@@ -1,0 +1,18 @@
+<div class= "w-100 d-flex flex-column justify-content-center align-items-center" >
+  <h2>Add Group</h2>
+  <%= form_with(model: [current_user, @group], local: true) do |f| %>
+   <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name, class: "form-control" %>
+  </div>
+   <div class="field">
+    <%= f.label :icon %><br />
+    <%= f.text_field :icon, class: "form-control" %>
+  </div>
+  
+    <div class="d-flex justify-content-between">
+      <%= f.submit "Add Group", class: "btn btn-primary mt-3" %>
+    </div>
+    
+  <% end %>
+</div>
