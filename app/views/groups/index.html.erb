@@ -14,7 +14,7 @@
 
   <div class="container ">
     <%= link_to new_group_path(current_user) do %>
-    <button class="btn btn-primary btn-lg btn-block" >Add category</button>
+    <button class="btn btn-success btn-lg btn-block green_button" >Add category</button>
    <% end %>
     </div>
 <% else %>
@@ -28,8 +28,8 @@
  
 </div>
   <div class="d-flex flex-column not_login">
-  <%= link_to "Sign in", new_user_session_path, :class => "btn btn-primary btn-lg btn-block mb-2" %>
-  <%= link_to "Sign Up", new_user_registration_path, :class => "btn btn-primary btn-lg btn-block mb-2" %>
+  <%= link_to "Sign in", new_user_session_path, :class => "btn btn-primary btn-lg btn-block mb-2 blue_button" %>
+  <%= link_to "Sign Up", new_user_registration_path, :class => "btn btn-primary btn-lg btn-block mb-2 blue_button" %>
   <div>
 </div>
 
