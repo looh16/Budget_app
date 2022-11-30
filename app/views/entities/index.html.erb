@@ -1,7 +1,5 @@
 <div class="container d-flex flex-column ">
-<% if current_user%>
- 
-   <div class= "container d-flex flex-column">
+<div class= "container d-flex flex-column">
     <% @entities.each do |entity| %> 
     <div class="card bg-light mb-3" style="max-height: 18rem;">
         <div class="card-body d-flex justify-content-between">
@@ -13,12 +11,8 @@
     </div>
     <div class="container field mt-3 d-flex flex-column">
     <%= link_to new_group_entity_path do %>
-    <button class="btn form-control btn-success green_button">Add Transation</button>
+    <button class="btn form-control btn-success green_button ">Add Transation</button>
    <% end %>
     </div>
-
-<% else %>
-You are not signet inddddd
-<% end %>
 </div>
 
