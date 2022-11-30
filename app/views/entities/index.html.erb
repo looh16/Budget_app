@@ -1,4 +1,9 @@
 <div class="container d-flex flex-column ">
+ <div class="container d-flex mb-5">
+<%= link_to root_path do %>
+   <i class="fa-solid fa-circle-left" style="color:#5fb523"></i>
+<% end %>
+</div>
 <div class= "container d-flex flex-column">
     <% @entities.each do |entity| %> 
     <div class="card bg-light mb-3" style="max-height: 18rem;">
@@ -15,4 +20,3 @@
    <% end %>
     </div>
 </div>
-

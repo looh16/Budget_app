@@ -13,10 +13,10 @@
  *= require_tree .
  *= require_self
  */
- @import 'bootstrap';
- @import "font-awesome";
+@import 'bootstrap';
+@import "font-awesome";
 
- *,
+*,
 body {
   margin: 0;
   padding: 0;
@@ -29,24 +29,24 @@ html {
 }
 
 .not_login {
-    margin-top: 15rem;
- }
+  margin-top: 15rem;
+}
 
- .categories {
-    height: 3rem;
-    justify-items: center;
- }
+.categories {
+  height: 3rem;
+  justify-items: center;
+}
 
- .main_message{
+.main_message {
   margin-top: 1rem;
- }
+}
 
- .blue_button {
+.blue_button {
   background-color: #3778c2;
-  color: white;   
- }
+  color: white;
+}
 
- .green_button {
+.green_button {
   background-color: #5fb523;
-  color: white;   
- }
+  color: white;
+}

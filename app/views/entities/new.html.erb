@@ -1,4 +1,9 @@
 <div class= "container d-flex flex-column" >
+<div class="container d-flex mb-5">
+<%= link_to group_entities_path do %>
+   <i class="fa-solid fa-circle-left" style="color:#5fb523"></i>
+<% end %>
+</div>
   <h2>Transation</h2>
   <%= form_for(@entity, :url => group_entities_path, :html => { :method => :post }) do |f| %>
 
