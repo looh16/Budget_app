@@ -1,5 +1,5 @@
-<div class= "w-100 d-flex flex-column justify-content-center align-items-center" >
-  <h2>Add Transa</h2>
+<div class= "container d-flex flex-column" >
+  <h2>Transation</h2>
   <%= form_for(@entity, :url => group_entities_path, :html => { :method => :post }) do |f| %>
 
    <div class="field">
@@ -14,7 +14,7 @@
   
   
     <div class="field mt-3 d-flex flex-column">
-      <%= f.submit "Add New", class: "btn btn-lg btn btn-success green_button" %>
+      <%= f.submit "Add New", class: "btn form-control btn-success green_button" %>
     </div>
     
   <% end %>
