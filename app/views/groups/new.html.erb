@@ -1,18 +1,21 @@
-<div class= "w-100 d-flex flex-column justify-content-center align-items-center" >
-  <h2>Add Group</h2>
+<div class="container d-flex flex-column ">
+  <h2>Category</h2>
   <%= form_with(model: [@group], local: true) do |f| %>
+  <div class="form-group">
    <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name, class: "form-control" %>
   </div>
   <div>
-  <%= f.label :icon, 'Select Icon:', class: "field" %>
-    <%= f.select :icon, ["👞","👔","🎵","🎉","🎄","🎁","🍼","✈️", "🎮", "📚", "🏥", "🏈", "🎬", "🏠", "🐶", "🍻", "🍔", "🚗", "🖥"], value: @group.icon, required: true %>
+  <%= f.label :icon, 'Select Icon:' %>
+    <%= f.select :icon, ["👞","👔","🎵","🎉","🎄","🎁","🍼","✈️", "🎮", "📚", "🏥", "🏈", "🎬", "🏠", "🐶", "🍻", "🍔", "🚗", "🖥"], value: @group.icon, required: true, class: "form-control" %>
   </div>
   
-    <div class="d-flex justify-content-between">
-      <%= f.submit "Add Group", class: "btn btn-primary mt-3" %>
+  
+    <div class="field mt-3 d-flex flex-column">
+    <%= f.submit "Add New", class: "btn btn-lg btn-primary" %>
+  </div>
     </div>
-    
+
   <% end %>
 </div>
