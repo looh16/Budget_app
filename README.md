@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Budget App
 
-> Description the project.
+> This is a mobile web application that allows the user to manage their budget: It has a list of transactions associated with a category, so that the user can see how much money he has spent and on what.
 
 
 ## Built With
@@ -50,6 +50,8 @@ Feel free to check the issues page.
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
 
 - [Microverse](https://www.microverse.org/)
 
