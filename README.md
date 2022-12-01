@@ -7,56 +7,43 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- Postgresql
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Ruby
+- Postgresql
+- Rails
 
-### Setup
+## Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+### Clone this repository
+git clone https://github.com/looh16/Budget_app
 
 
+### Run project
+- cd blog_app
+- run rails server
 
-## Authors
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Author
 
-👤 **Author2**
+👤 **Custodio Serafim**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@looh16](https://github.com/looh16)
+- Twitter: [@looh16](https://twitter.com/custodiolanga1)
+- LinkedIn: [@looh16](https://www.linkedin.com/in/custodio-serafim) 
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, [Issues](https://github.com/looh16/Budget_app/issues), and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
 ## Show your support
 
@@ -64,9 +51,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+
 
 ## 📝 License
 
