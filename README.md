@@ -1,11 +1,6 @@
-<div align="center">
+<a name="readme-top"></a>
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # 📖 [Budget App] <a name="about-project"></a>
 
