@@ -1,62 +1,92 @@
+<a name="readme-top"></a>
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# 📖 [Budget App] <a name="about-project"></a>
 
-> Description the project.
+**[Budget App]** is a a mobile web application that allows the user to manage their budget: It has a list of transactions associated with a category, so that the user can see how much money he has spent and on what
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">Html</a></li>
+     <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://guides.rubyonrails.org/index.html">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[User Register and Log In]**
+- **[Create transactions associated with a category]**
+- **[See the money spent on each category]**
 
 
-## Built With
+## 💻 Getting Started <a name="getting-started"></a>
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+- Postgresql
+- Rails
 
-### Setup
+In order to run this project you need:
 
-### Install
+### Clone this repository
+git clone https://github.com/looh16/Budget_app
 
-### Usage
+### Run project
+- cd Budget_app
+- run bundle install
+- Open the file config\database.yml
+- Modify the connection parameters to point your Postgres Database: username: [your_user] password: [your_password]
+- run rake db:create
+- run rake db:migrate
+- run rails server
+- Visit [localhost:3000](http://localhost:3000) in your browser!
+
 
 ### Run tests
+To run tests, run the following command:
+- Run all tests: rspec
+- Run all tests and show test documentation: rspec spec --format documentation
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 👥 Author <a name="authors"></a>
 
+👤 **Custodio Serafim**
 
-## Authors
+- GitHub: [@looh16](https://github.com/looh16)
+- Twitter: [@looh16](https://twitter.com/custodiolanga1)
+- LinkedIn: [@looh16](https://www.linkedin.com/in/custodio-serafim) 
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, [Issues](https://github.com/looh16/Budget_app/issues), and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
 ## Show your support
 
@@ -64,9 +94,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+
+- I would like to thank to [Microverse](https://www.microverse.org/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License
 
