@@ -40,6 +40,9 @@
 - **[Create transactions associated with a category]**
 - **[See the money spent on each category]**
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://budgeet-appp.herokuapp.com/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
